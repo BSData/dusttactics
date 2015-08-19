@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" revision="9" gameSystemId="e37e48f3-bb87-e20a-cf08-355a001c0e6a" gameSystemRevision="1" battleScribeVersion="1.15" name="Axis" authorName="katfude" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" revision="8" gameSystemId="e37e48f3-bb87-e20a-cf08-355a001c0e6a" gameSystemRevision="1" battleScribeVersion="1.15" name="Axis" authorName="Johannes Haglund" authorContact="johannes@haglund.info" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="856b8e56-884f-7495-aed5-dab41631de1b" name="AB-47" points="9.0" categoryId="bbcb75d0-5169-4b14-1ca9-dff1d9b4996e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
@@ -97,7 +97,12 @@
           <entries/>
           <entryGroups/>
           <modifiers/>
-          <rules/>
+          <rules>
+            <rule id="b4717bcc-1f52-1bbe-e4f4-c82e4b512a47" name="Wire Guided" hidden="false" page="0">
+              <description>If Unit attacks with one missile and no other weapons, it re-roll misses for that missile as if making a Sustained Attack.</description>
+              <modifiers/>
+            </rule>
+          </rules>
           <profiles>
             <profile id="defbf864-4b8a-b436-ba1c-b7423b3cd627" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="X-4 Missile" hidden="false" page="0">
               <characteristics>
@@ -121,11 +126,7 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links>
-            <link id="d0c3-23d0-d97e-471d" targetId="5122-43ac-4dc3-c2f2" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
@@ -4734,6 +4735,100 @@
         </link>
       </links>
     </entry>
+    <entry id="d10e-13ad-6ad7-a1d7" name="Frank von Stein" points="8.0" categoryId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="2aae-f8e7-c115-49bf" name="Mauser Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7de4-b8db-dfb4-0823" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" name="Mauser Pistol" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="382f5f95-0919-db20-9901-aa54bc211abf" name="Range" value="2"/>
+                <characteristic characteristicId="9f313303-9a76-64ed-6657-e3b18cdf1022" name="S1" value="3/1"/>
+                <characteristic characteristicId="2fd57814-fb96-57cd-78e5-048c1e328a32" name="S2" value="2/1"/>
+                <characteristic characteristicId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" name="S3" value="1/1"/>
+                <characteristic characteristicId="9c177689-a2b1-8777-3393-bd39db9df6f9" name="S4" value="-"/>
+                <characteristic characteristicId="4acce298-41c6-ac29-6442-02e5e62f87c5" name="V1" value="2/1"/>
+                <characteristic characteristicId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" name="V2" value="-"/>
+                <characteristic characteristicId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" name="V3" value="-"/>
+                <characteristic characteristicId="a27828e2-0dc0-c181-1699-be334623891d" name="V4" value="-"/>
+                <characteristic characteristicId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" name="V5" value="-"/>
+                <characteristic characteristicId="c95029b6-a3de-69ec-b3f0-0d150370d270" name="V6" value="-"/>
+                <characteristic characteristicId="36d7cfe6-023a-0dfe-e736-812d153c4fcc" name="V7" value="-"/>
+                <characteristic characteristicId="bf377d08-6032-da4e-f38f-cab8ee40f265" name="A1" value="-"/>
+                <characteristic characteristicId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7" name="A2" value="-"/>
+                <characteristic characteristicId="4946dc2d-5011-1098-c878-f3ab3bc8477f" name="A3" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="b630-70be-9b8e-95b9" name="Dual Cbl. Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="27f2-b156-ab74-8798" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" name="Dual Cbl. Claws" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="382f5f95-0919-db20-9901-aa54bc211abf" name="Range" value="C"/>
+                <characteristic characteristicId="9f313303-9a76-64ed-6657-e3b18cdf1022" name="S1" value="3/2"/>
+                <characteristic characteristicId="2fd57814-fb96-57cd-78e5-048c1e328a32" name="S2" value="3/2"/>
+                <characteristic characteristicId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" name="S3" value="3/2"/>
+                <characteristic characteristicId="9c177689-a2b1-8777-3393-bd39db9df6f9" name="S4" value="3/2"/>
+                <characteristic characteristicId="4acce298-41c6-ac29-6442-02e5e62f87c5" name="V1" value="3/2"/>
+                <characteristic characteristicId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" name="V2" value="3/2"/>
+                <characteristic characteristicId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" name="V3" value="2/1"/>
+                <characteristic characteristicId="a27828e2-0dc0-c181-1699-be334623891d" name="V4" value="1/1"/>
+                <characteristic characteristicId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" name="V5" value="1/1"/>
+                <characteristic characteristicId="c95029b6-a3de-69ec-b3f0-0d150370d270" name="V6" value="1/1"/>
+                <characteristic characteristicId="36d7cfe6-023a-0dfe-e736-812d153c4fcc" name="V7" value="1/1"/>
+                <characteristic characteristicId="bf377d08-6032-da4e-f38f-cab8ee40f265" name="A1" value="-"/>
+                <characteristic characteristicId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7" name="A2" value="-"/>
+                <characteristic characteristicId="4946dc2d-5011-1098-c878-f3ab3bc8477f" name="A3" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="4754-b265-211d-30e1" targetId="9234eb70-7a6e-9de9-42a0-32b0f586a393" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6bed-8cff-34ba-5e07" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b" name="Frank von Stein" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="4df5bfce-f8de-996b-b151-521ceb1ffe6a" name="Damage Track" value="4"/>
+            <characteristic characteristicId="44ed5a71-9e76-fc25-7fcf-46df82ff75eb" name="Move" value="3"/>
+            <characteristic characteristicId="c508ae09-edfd-4a55-8027-3b3099af5e01" name="March Move" value="4"/>
+            <characteristic characteristicId="ec77eb83-dbb3-c773-ca88-53b8207beda6" name="Armour" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="69b2-8f0a-5b80-c063" targetId="f2ef9847-3fbe-667e-86ff-58088c8b4e20" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8988-07c1-3bfd-6701" targetId="cf4903f8-7644-4596-bccb-d35b2587f998" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b227-75e6-a915-5de7" targetId="9253b15c-e373-5ade-deae-119aa28ff856" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4230-7067-4f55-1d7c" targetId="e5d192ac-8d15-d1bf-8c68-44c1f023abe4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -4997,11 +5092,11 @@
       <modifiers/>
     </rule>
     <rule id="f87370dc-5979-8fbe-962a-e75e6b4bbfd2" name="Ace Pilot" hidden="false" page="0">
-      <description>May mount a Vehicle, using their skills while in the Vehicle. Roll a die when the Vehicle Activates. On a Symbol or Target, the Vehicle gains a third Action for this Activation.</description>
+      <description>May mount a Vehicle, using their skills while in the Vehicle. When the Vehicle Activates, roll a die. On a Symbol or Target Ace Pilot gains a third Action.</description>
       <modifiers/>
     </rule>
     <rule id="ef8a0708-5940-c812-790a-a39f4c914770" name="Advanced Reactive Fire" hidden="false" page="0">
-      <description>Can attempt a Reactive Attack at up to Range 6, counting Shield as Symbol when rolling for number of Actions. Does not apply to Units Joined.</description>
+      <description>Can attempt a Reactive Attack at up to Range 6, counting Shield and Symbol when rolling for number of Actions. Does not apply to Units Joined.</description>
       <modifiers/>
     </rule>
     <rule id="b32dad8a-6eee-76d5-b782-7ff4de825319" name="Air Alert" hidden="false" page="0">
@@ -5009,7 +5104,7 @@
       <modifiers/>
     </rule>
     <rule id="21f27520-43e2-42af-1969-82854c2404c8" name="Amphibious" hidden="false" page="0">
-      <description>Can move through Deep Water as if it were Open Space.</description>
+      <description>Can move through Water as if it were Open Space.</description>
       <modifiers/>
     </rule>
     <rule id="64e8af9e-a9f4-5576-2651-b59143e17de2" name="Artillery" hidden="false" page="0">
@@ -5041,7 +5136,7 @@
       <modifiers/>
     </rule>
     <rule id="d8dec4a8-ce37-2bbc-55f1-fc0ae1c83d1e" name="Camouflage" hidden="false" page="0">
-      <description>Take Camouflage Action. If in Cover, only Units closer than Range 3 (i.e. 0-2) have Line of Sight to this Unit until it takes an Action other than Move, Artillery Observer, or Nothing. Start the game Camouflaged. Does not apply to Units Joined.</description>
+      <description>Take Camouflage Action. If in Cover, only Units within Range 3 have Line of Sight to this Unit until it takes an Action other than Move, Artillery Observer, or Nothing. Start the game Camouflaged. Does not apply to Units Joined.</description>
       <modifiers/>
     </rule>
     <rule id="9253b15c-e373-5ade-deae-119aa28ff856" name="Charge" hidden="false" page="0">
@@ -5121,7 +5216,7 @@
       <modifiers/>
     </rule>
     <rule id="efc0b057-8b2b-54a5-aabb-5632dd40183c" name="Infantry Ace" hidden="false" page="0">
-      <description>Roll a die when the Infantry Ace activates. On a Symbol or Target they (and any Unit they have Joined) gains a third Action for this Activation.</description>
+      <description>Roll a die when the Infantry Ace activates. On a Symbol or Target she (and any Unit she has Joined) gains a third Action for this Activation.</description>
       <modifiers/>
     </rule>
     <rule id="32f1bbbf-37f0-9fb1-4c96-9db3df69c6a5" name="Killing Spree" hidden="false" page="0">
@@ -5137,7 +5232,7 @@
       <modifiers/>
     </rule>
     <rule id="a88e32f2-418f-b116-6991-6eb1dc2e64f0" name="Lucky" hidden="false" page="0">
-      <description>Once per game, may re-roll any or all of the dice for one weapon during their Attack action.</description>
+      <description>Once per game, may re-roll all of the dice for one weapon during their Attack action.</description>
       <modifiers/>
     </rule>
     <rule id="da42b81f-fa44-27b2-20f5-fc2a04aac5e0" name="Mechanic" hidden="false" page="0">
@@ -5145,7 +5240,7 @@
       <modifiers/>
     </rule>
     <rule id="86fc4b25-a319-afdd-4c21-6cfe379a3d0b" name="Move and Fire" hidden="false" page="0">
-      <description>May take an extra Move Action immediately after performing an Attack or Sustained Attack Action using Ranged Weapons. Applies to Heroes that Join this Unit as well.</description>
+      <description>May take an extra Move Action either immediately before or after performing an Attack or Sustained Attack Action using Ranged Weapons. Applies to Heroes that Join this Unit as well.</description>
       <modifiers/>
     </rule>
     <rule id="6fe80917-18e3-059e-53e2-71b0057f36b9" name="Naval Unit" hidden="false" page="0">
@@ -5161,7 +5256,7 @@
       <modifiers/>
     </rule>
     <rule id="242a4b80-1c5e-3d3a-5924-9c5ff1a47f8b" name="Pilot" hidden="false" page="0">
-      <description>May mount a Vehicle, using their skills while in the Vehicle.</description>
+      <description>May mount a Vehicle, using his skills while in the Vehicle.</description>
       <modifiers/>
     </rule>
     <rule id="e573d9c2-1874-6c6b-d801-c6e0f54dba64" name="Reload" hidden="false" page="0">
@@ -5205,7 +5300,7 @@
       <modifiers/>
     </rule>
     <rule id="34882505-fb88-e465-8a1d-d9bddea2996b" name="Support Weapon" hidden="false" page="0">
-      <description>Support Weapons have three or four Soldiers on the same base. Surviving Soldiers choose which weapons to use for each attack.</description>
+      <description>Support Weapons have three of four Soldiers on the same base. Survivng Soldiers choose which weapons to use for each attack.</description>
       <modifiers/>
     </rule>
     <rule id="0bb50890-455e-d91c-4e8e-b850f1933896" name="Take Aim" hidden="false" page="0">
@@ -5230,10 +5325,6 @@
     </rule>
     <rule id="67a845a7-66dc-4f7d-a7ea-3d0685d6a206" name="Wheeled" hidden="false" page="0">
       <description>Roll when moving through Terrain, halting on a score of Target or Shield.</description>
-      <modifiers/>
-    </rule>
-    <rule id="5122-43ac-4dc3-c2f2" name="Wire Guided" hidden="false">
-      <description>If a Unit attacks with one Wire-guided weapon and no other weapons when making an Attack Action, it re-rolls misses for that weapon as if making a Sustained Attack.</description>
       <modifiers/>
     </rule>
     <rule id="e5d192ac-8d15-d1bf-8c68-44c1f023abe4" name="Zombie" hidden="false" page="0">
